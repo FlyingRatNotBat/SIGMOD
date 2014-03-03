@@ -1,0 +1,12 @@
+SIGMOD task1 method v1.0
+AT 2014/03/03
+原始数据：
+	person-know-person：可以用来创建一个关系全图。
+	comment-hascreator：作为图上节点的属性进行存储。
+	comment-reply     : 边权值更改
+预处理效果预期：
+	创建一个带有边权值的人物关系图。
+目标函数：
+	quary1(p1,p2,x)
+		注：寻找p1和p2之间的最短路。要求最短路上的每一条边的权值都不小于x。
+
